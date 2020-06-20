@@ -5,12 +5,8 @@
 <project reference="1.0,https://github.com/yangbing007/bimvie.ws.git,master,."/>
 <project reference="1.0,https://github.com/yangbing007/BinarySerializers.git,master,BinarySerializers"/>
 <project reference="1.0,https://github.com/yangbing007/Console.git,master,Console"/>
-<project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,Documentation"/>
 <project reference="1.0,https://github.com/yangbing007/IfcOpenShell-BIMserver-plugin.git,master,."/>
 <project reference="1.0,https://github.com/yangbing007/IfcPlugins.git,master,IfcPlugins"/>
 <project reference="1.0,https://github.com/yangbing007/BIMserver-JavaScript-API.git,master,."/>
-<project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,PluginBase"/>
-<project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,Shared"/>
-<project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,Tests"/>
 </provider>
 </psf>
