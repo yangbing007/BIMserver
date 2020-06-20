@@ -16,5 +16,6 @@
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,PluginBase"/>
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,Shared"/>
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,Tests"/>
+<project reference="1.0,https://github.com/yangbing007/BIMSie-API.git,master,."/>
 </provider>
 </psf>
