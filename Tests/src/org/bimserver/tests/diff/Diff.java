@@ -455,6 +455,7 @@ public class Diff {
 		modelObject1.setMatchedObject(modelObject2);
 	}
 
+	@SuppressWarnings("unused")
 	private void matchValue(int index, ModelObject modelObject1, ModelObject modelObject2, Object value, Object remoteValue) throws CompareException {
 		if (value == null) {
 			if (remoteValue != null) {
@@ -541,6 +542,7 @@ public class Diff {
 		return matches;
 	}
 
+	@SuppressWarnings("unused")
 	private int expandValue(int index, ModelObject modelObject, Object value, Object remoteValue) throws CompareException {
 		int result = 0;
 		if (value == null) {

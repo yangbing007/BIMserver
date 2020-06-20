@@ -72,6 +72,7 @@ import org.bimserver.utils.CollectionUtils;
 import org.bimserver.utils.DeserializerUtils;
 import org.bimserver.utils.SerializerUtils;
 
+@SuppressWarnings("unused")
 public class AddFurniture {
 	public static void main(String[] args) {
 		try {

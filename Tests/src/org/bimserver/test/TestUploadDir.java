@@ -34,6 +34,7 @@ import org.bimserver.shared.exceptions.UserException;
 import org.bimserver.utils.Formatters;
 import org.bimserver.utils.PathUtils;
 
+@SuppressWarnings("unused")
 public class TestUploadDir {
 	private BimServerClientInterface client;
 

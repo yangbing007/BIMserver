@@ -52,6 +52,7 @@ public class AllTests {
 		setup();
 	}
 
+	@SuppressWarnings("rawtypes")
 	private static void setup() {
 		// Create a config
 		Path home = Paths.get("tmptestdata/home-" + new Random().nextInt(1000000000));

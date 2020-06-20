@@ -27,6 +27,7 @@ import org.bimserver.shared.exceptions.BimServerClientException;
 import org.bimserver.shared.exceptions.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServiceException;
 
+@SuppressWarnings("unused")
 public class GetAllAccounts {
 	public static void main(String[] args) {
 		new GetAllAccounts().start(args);

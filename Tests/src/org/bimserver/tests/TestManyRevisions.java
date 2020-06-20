@@ -35,6 +35,7 @@ import org.bimserver.shared.exceptions.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServerException;
 import org.bimserver.shared.exceptions.UserException;
 
+@SuppressWarnings("unused")
 public class TestManyRevisions {
 	public static void main(String[] args) {
 		new TestManyRevisions().start(args);

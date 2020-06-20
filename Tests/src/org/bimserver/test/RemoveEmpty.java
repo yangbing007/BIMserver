@@ -35,7 +35,7 @@ public class RemoveEmpty {
 			for (Path p : newDirectoryStream) {
 				DirectoryStream<Path> a = Files.newDirectoryStream(p);
 				int c = 0;
-				for (Path b : a) {
+				for (@SuppressWarnings("unused") Path b : a) {
 					c++;
 				}
 				if (c == 1) {

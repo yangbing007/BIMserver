@@ -24,6 +24,7 @@ import org.bimserver.shared.UsernamePasswordAuthenticationInfo;
 import org.bimserver.shared.exceptions.BimServerClientException;
 
 public class TestPorts {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws BimServerClientException, Exception {
 		try (BimServerClientFactory factory = new JsonBimServerClientFactory("http://localhost:8080")) {
 			try (BimServerClientInterface client = factory.create(new UsernamePasswordAuthenticationInfo("admin@bimserver.org", "admin"))) {

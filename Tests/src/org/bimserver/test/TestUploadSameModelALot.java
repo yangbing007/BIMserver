@@ -28,6 +28,7 @@ import org.bimserver.plugins.services.Flow;
 import org.bimserver.shared.exceptions.PublicInterfaceNotFoundException;
 import org.bimserver.shared.exceptions.ServiceException;
 
+@SuppressWarnings("unused")
 public class TestUploadSameModelALot {
 
 	public static void main(String[] args) {

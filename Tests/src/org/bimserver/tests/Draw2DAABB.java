@@ -53,6 +53,7 @@ public class Draw2DAABB extends JFrame {
 	}
 	
 	private void createImage() {
+		@SuppressWarnings("unused")
 		Graphics graphics = image.getGraphics();
 		try (JsonBimServerClientFactory factory = new JsonBimServerClientFactory("http://localhost:8080")) {
 			try (BimServerClient client = factory.create(new UsernamePasswordAuthenticationInfo("admin@bimserver.org", "admin"))) {
@@ -76,6 +77,7 @@ public class Draw2DAABB extends JFrame {
 						SBounds bounds = client.getServiceInterface().getModelBounds(project.getLastRevisionId());
 						if (bounds != null) {
 							Bounds subModelBounds = new Bounds(bounds);
+							@SuppressWarnings("unused")
 							Bounds subModelScreenBounds = subModelBounds.scale(totalBounds, screenBounds);
 							
 						}
