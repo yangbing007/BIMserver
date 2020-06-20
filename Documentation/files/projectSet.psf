@@ -5,7 +5,7 @@
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,BimServerClientLib"/>
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,BimServerJar"/>
 <project reference="1.0,https://github.com/yangbing007/BIMserver.git,master,BimServerWar"/>
-<project reference="1.0,https://github.com/yangbing007/BIMsurfer.git,V1,."/>
+<project reference="1.0,https://github.com/yangbing007/BIMsurfer.git,master,."/>
 <project reference="1.0,https://github.com/yangbing007/bimvie.ws.git,master,."/>
 <project reference="1.0,https://github.com/yangbing007/BinarySerializers.git,master,BinarySerializers"/>
 <project reference="1.0,https://github.com/yangbing007/Console.git,master,Console"/>
